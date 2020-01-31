@@ -72,9 +72,11 @@ p {
 
 /* Title Section  */
 
+#title {
+  text-align: left;
+}
 #title .container-fluid {
     padding: 3% 15% 6.2%;
-    text-align: left;
 }
 
 
@@ -175,13 +177,14 @@ p {
 }
 
 
-@media (max-width:1028px) {
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+@media (max-width: 1028px) {
 
   #title {
     text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
 }
